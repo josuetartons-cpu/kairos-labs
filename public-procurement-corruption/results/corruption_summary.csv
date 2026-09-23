@@ -1,0 +1,2 @@
+detection_probability,bribe,firm_penalty,official_penalty,private_profit_margin,official_accept_payoff,corruption_attempts,accepted_bribes,distorted_awards,public_value_honest,public_value_corrupt,total_corruption_loss,average_loss_per_distorted_tender
+0.1,20,100,100,0.2,10.0,100,100,100,8197.046436923185,5653.878725891113,2543.1677110320725,25.431677110320724

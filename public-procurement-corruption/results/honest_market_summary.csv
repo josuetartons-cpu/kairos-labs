@@ -1,0 +1,2 @@
+seed,n_tenders,firms_per_tender,total_bids,total_public_value_honest,average_public_value_honest,median_public_value_honest,total_spending_honest,average_winning_price,average_winner_quality,average_winner_experience,average_winner_risk
+42,100,5,500,8197.046436923185,81.97046436923185,81.27055142675948,70548.68432053125,705.4868432053124,78.96817154388192,76.20253313141053,22.99018926476459

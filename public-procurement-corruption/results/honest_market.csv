@@ -1,0 +1,6 @@
+firm,price,quality,experience,risk,price_score,low_risk_score,public_value,rank
+Empresa D,750,75,85,30,60.0,70,72.75,1
+Empresa B,700,65,60,25,80.0,75,69.5,2
+Empresa C,900,95,90,10,0.0,90,69.0,3
+Empresa A,800,80,70,20,40.0,80,67.5,4
+Empresa E,650,55,50,40,100.0,60,66.0,5

@@ -1,0 +1,3 @@
+regime,rounds,total_attempts,total_accepted,total_distorted,total_corruption_loss,average_public_value,average_eligible_propensity,average_eligible_firms_above_threshold
+Post-reform,50,1625,0,0,0.0,8197.046436923185,0.26899074658338673,107.16
+Pre-reform,50,5000,5000,5000,127158.38555160363,5653.8787258911125,0.6175000042474125,400.0
