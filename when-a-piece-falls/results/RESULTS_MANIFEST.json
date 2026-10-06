@@ -1,0 +1,546 @@
+{
+  "original_results_count": 90,
+  "files": [
+    {
+      "name": "betweenness1000_firms.csv",
+      "bytes": 856370,
+      "sha256": "2a5f6b4c4a22cd3649f6b127f80ad2c24a97da34b24172974fb9a4f7e71506a2",
+      "archived": false
+    },
+    {
+      "name": "betweenness1000_groups.csv",
+      "bytes": 455,
+      "sha256": "e872f302c136c957ffccb97c52c16ca4f8b1b062d8a768e2f13db5dabee8f16b",
+      "archived": false
+    },
+    {
+      "name": "betweenness1000_metadata.json",
+      "bytes": 1249,
+      "sha256": "d35040bc3a5fd3649c22d7635e2cf29aafb158de373f5e8d89f0a013621053d5",
+      "archived": false
+    },
+    {
+      "name": "betweenness1000_per_network.csv",
+      "bytes": 774,
+      "sha256": "6e036d93e68d11f1eeab8465eb1e54fe4dddd301177c9c3f49529d1d3d7562dd",
+      "archived": false
+    },
+    {
+      "name": "betweenness_example.csv",
+      "bytes": 267,
+      "sha256": "4f3d3dbb4706440c3a88c3ec7b8f5d04a6be8fc58e292f36d96b3d2463c60072",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_edges.csv",
+      "bytes": 481620,
+      "sha256": "5b23263f4acdcc8fae4b610754c2f6f894cf8d870381fd3cd4db56cec6d588f5",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_joint_comparison.csv",
+      "bytes": 1585,
+      "sha256": "e25908afc5ae31514177fc7d870c3a05b533a03d5a3b85a78a1ab067b0a7b78c",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_joint_metadata.json",
+      "bytes": 1105,
+      "sha256": "21a6ea868dfda62d6e80c89ccd1045750b700a7aea9c312ab1dc8b395e8f4f79",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_joint_per_network.csv",
+      "bytes": 31506,
+      "sha256": "d0d79d66d8b5afb24ae5273d0d81b07d8f088180f32b854d4c6fbd5c3200b494",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_joint_rounds.csv",
+      "bytes": 78550417,
+      "sha256": "60d731e2717f38431e3a313ddec7a244ccad6a7d3469a2f3ec0356b5890d4d90",
+      "archived": true
+    },
+    {
+      "name": "concentration1000_joint_shocks.csv",
+      "bytes": 32642919,
+      "sha256": "ff8dc5bed6493fd4212c75c222a8e2eee6545411dc2c6df5769f09351277feba",
+      "archived": true
+    },
+    {
+      "name": "concentration1000_joint_summary.csv",
+      "bytes": 2118,
+      "sha256": "e63e409f04751acf30941ca0b5ca46efe481fcb2436a9d8387974d9dda9c398c",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_metadata.json",
+      "bytes": 1137,
+      "sha256": "73a821e0da9b7f3b94a56ffbab12b4f22c2068d7b78722f2a5180e33ecb7333d",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_per_layer.csv",
+      "bytes": 9095,
+      "sha256": "eecc0fb8fb8896031b66b4f83285203b8142304ce1ef9c33db3e23f88f15a20c",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_per_network.csv",
+      "bytes": 1850,
+      "sha256": "5ab1281490a2687fec81108036febf534920d4ea0ce64872bbec70c7ded54a30",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_pools.csv",
+      "bytes": 96032,
+      "sha256": "fefb6dd07435700b6b35fb90ebc1034a179023b798e87b02600ab608a2bd436f",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_benchmark.csv",
+      "bytes": 12966,
+      "sha256": "178bd4b3e132780642f03fa5f448f6f3481cfacedea731205b2e11057098e322",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_comparison.csv",
+      "bytes": 1510,
+      "sha256": "8a74640b691af01dd77d52c501b905faf4d41a8a2e989dcbbd0d4715fcbec4e2",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_edges.csv",
+      "bytes": 481620,
+      "sha256": "8d5b5ab048df3066dd14a059c8a022e400bce4e41bd0fa9ef65e5dab4df247e0",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_metadata.json",
+      "bytes": 1280,
+      "sha256": "5321de7b3a025c017bc1a7ca7c6f02699709b4aca19b054afc8a175368bb9ede",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_per_network.csv",
+      "bytes": 46001,
+      "sha256": "5302992f2964ff2179016be1601ccb9a7fa35281d45e343e268ec338429afdd4",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_pools.csv",
+      "bytes": 144032,
+      "sha256": "04bd822d6dd12d76f64a7cedf07cab6de66eb95d6ce137c475c7d00c19e6f48d",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_sensitivity_rounds.csv",
+      "bytes": 78563610,
+      "sha256": "26f1efbe338f10cebeab20080b81c7a506c85b427a27372e2978fa7ebdba00c7",
+      "archived": true
+    },
+    {
+      "name": "concentration1000_sensitivity_shocks.csv",
+      "bytes": 18822021,
+      "sha256": "5b5f18298511187761b8dd9fccaa99ae0a77f3792583ef3e00de9739b2c843ff",
+      "archived": true
+    },
+    {
+      "name": "concentration1000_sensitivity_summary.csv",
+      "bytes": 2955,
+      "sha256": "d74ea3b1c4245943d038564e088d6beddf9328d9c78fe8b5d8100e72b777e326",
+      "archived": false
+    },
+    {
+      "name": "concentration1000_summary.csv",
+      "bytes": 248,
+      "sha256": "13847fb343c9b0930db694a3ad9c1f69220c9b2dd7d27f1ca6858062a91aad1a",
+      "archived": false
+    },
+    {
+      "name": "connectivity1000_benchmark.csv",
+      "bytes": 13214,
+      "sha256": "65d03d871961be7da13a8cd5f6b6a9e7d8155e42885525ef9bce308e5f15fd7f",
+      "archived": false
+    },
+    {
+      "name": "connectivity1000_benchmark_summary.csv",
+      "bytes": 376,
+      "sha256": "d959ef4e2f9d6749b7b3a86c260642d68fba3908221eba72cdb3364b2c773b2a",
+      "archived": false
+    },
+    {
+      "name": "connectivity1000_metadata.json",
+      "bytes": 2892,
+      "sha256": "f64c8a0225adc48e139017597d6d1d7f0470a857dde4c8f62eefbbfdcece80c3",
+      "archived": false
+    },
+    {
+      "name": "connectivity1000_per_network.csv",
+      "bytes": 60216,
+      "sha256": "fc23c10e8d672f262da34afd8b237a458325c0b9f05e0377778c8a934c3cd5b4",
+      "archived": false
+    },
+    {
+      "name": "connectivity1000_states.csv",
+      "bytes": 12790587,
+      "sha256": "54bb16448e05acb1fd837ad699c634d7176bc3ab80ecb1fe102e2a6cf8aa4eba",
+      "archived": true
+    },
+    {
+      "name": "connectivity1000_summary.csv",
+      "bytes": 3613,
+      "sha256": "8b08346afec8eb623b34f2d93c4753472f51d709d5e8b52f56279e0814dfe501",
+      "archived": false
+    },
+    {
+      "name": "individual1000_cases.csv",
+      "bytes": 835283,
+      "sha256": "37b02363c32f09ef686f52a74b9d476611c55b033f0915e59b7d18ae8559bfe1",
+      "archived": false
+    },
+    {
+      "name": "individual1000_groups.csv",
+      "bytes": 1014,
+      "sha256": "8a95e90c5db2c78c59e13e1790caf1758f1ce2895231b52eb01bbaded5780c9e",
+      "archived": false
+    },
+    {
+      "name": "individual1000_metadata.json",
+      "bytes": 819,
+      "sha256": "f2d3fb83f8a43be978297ca18e2fc2dbda2b19bbe8fe3726a7f26ce1ae5a8c91",
+      "archived": false
+    },
+    {
+      "name": "individual1000_per_network.csv",
+      "bytes": 684,
+      "sha256": "36e96bf4222391f232b2782eb15644c94afdfddf7ac359af05c9f6e8b7ed263b",
+      "archived": false
+    },
+    {
+      "name": "individual1000_rounds.csv",
+      "bytes": 459393,
+      "sha256": "3ea15633ac0eeb54e64ef02be692446137b273b8e76b4bef67805c4095b44ccc",
+      "archived": false
+    },
+    {
+      "name": "individual1000_summary.csv",
+      "bytes": 125,
+      "sha256": "d005b650f9bc24cd62f0a6b7b9290e35ced1a501106ed25b00070fa1ea9a8dd1",
+      "archived": false
+    },
+    {
+      "name": "networks1000_edges.csv",
+      "bytes": 481620,
+      "sha256": "89070d89401edeec6276edd6629353df38473aec0e33a21e0deba28886aedcbc",
+      "archived": false
+    },
+    {
+      "name": "networks1000_manifest.csv",
+      "bytes": 544,
+      "sha256": "310f2de7230fded66f94ddc55018c7ae21274ada28aaa03835afed0633b161c3",
+      "archived": false
+    },
+    {
+      "name": "networks1000_metadata.json",
+      "bytes": 988,
+      "sha256": "a1274b5def3f155b7bd18dcbf8c30a51ca82e8c6c0447f7b0c1e366b98a3550b",
+      "archived": false
+    },
+    {
+      "name": "networks1000_nodes.csv",
+      "bytes": 380035,
+      "sha256": "6af4f448073cab9a0393a907f63a63174cbb6c43cc91938d830603926f9ede63",
+      "archived": false
+    },
+    {
+      "name": "networks1000_per_network.csv",
+      "bytes": 5688,
+      "sha256": "63b98b29518f8114a8cbf6115506328426810f692ca213e2a4b84767871676d2",
+      "archived": false
+    },
+    {
+      "name": "networks1000_rounds.csv",
+      "bytes": 23857791,
+      "sha256": "2f616600c3003a98d4e26cb8612b34c4bd591c8a97fd2a70013f738da812b465",
+      "archived": true
+    },
+    {
+      "name": "networks1000_shocks.csv",
+      "bytes": 8864817,
+      "sha256": "e6d87aea8961bdfdc69f28816702cd27a5f07042928d312b50d71f2833e1f12a",
+      "archived": false
+    },
+    {
+      "name": "networks1000_summary.csv",
+      "bytes": 602,
+      "sha256": "b8b9ffd95f1cc489ca5a7bd5e179f79c9caa88b07427fdcf7ed2d5dfafcfd490",
+      "archived": false
+    },
+    {
+      "name": "networks100_edges.csv",
+      "bytes": 47355,
+      "sha256": "622fa298c8998cc558cd7c8ce6e92eace5843c8d13a863f6347584b4db4d370f",
+      "archived": false
+    },
+    {
+      "name": "networks100_manifest.csv",
+      "bytes": 504,
+      "sha256": "2cf52ae27b6807b1f551922eeca7f3d70bd998a101792df4c87586d842249211",
+      "archived": false
+    },
+    {
+      "name": "networks100_metadata.json",
+      "bytes": 987,
+      "sha256": "7c17f2189a135267b554533f4dbcb8cd754785c22a6f7ae773f5092e1e687fc0",
+      "archived": false
+    },
+    {
+      "name": "networks100_nodes.csv",
+      "bytes": 38035,
+      "sha256": "dcd8c3831e32f20f751716be8f5f2034bca0597e0e2c61e2c5c3a676d657ff76",
+      "archived": false
+    },
+    {
+      "name": "networks100_per_network.csv",
+      "bytes": 5077,
+      "sha256": "421c0fd7ff3d4e857b7d9bff0688b0f9d087075202125a86c5f24b10cceb51d8",
+      "archived": false
+    },
+    {
+      "name": "networks100_rounds.csv",
+      "bytes": 2397801,
+      "sha256": "ed73abe602b6623b95430fd5be34e60fcfd53decfc08b3cefe3406e7502dd74d",
+      "archived": false
+    },
+    {
+      "name": "networks100_shocks.csv",
+      "bytes": 1143195,
+      "sha256": "107c63329030bdd54a9bf513d930281ca418ab4c80ab89fbb2f4361f1b722a22",
+      "archived": false
+    },
+    {
+      "name": "networks100_summary.csv",
+      "bytes": 546,
+      "sha256": "f15ad048aa3ae4482d3be1449393752092c9d6d53ab45f077acbf30667801ed7",
+      "archived": false
+    },
+    {
+      "name": "pilot_edges.csv",
+      "bytes": 1768,
+      "sha256": "786931e7d3d10db3cdad03ea9eb81a3672c863157b1d61759bf13f4da4a62382",
+      "archived": false
+    },
+    {
+      "name": "pilot_metadata.json",
+      "bytes": 434,
+      "sha256": "12d3d5a0f1a5e4bd08c856294f4c8807b1b73c76d7ee7201f6c4dd0f88724d45",
+      "archived": false
+    },
+    {
+      "name": "pilot_nodes.csv",
+      "bytes": 1524,
+      "sha256": "45c8bcc0667d3029ab7d570aac9e28aa1830e90dc09eb8bed4e772de1eed58be",
+      "archived": false
+    },
+    {
+      "name": "pilot_random_rounds.csv",
+      "bytes": 1520,
+      "sha256": "256824b1a19921116100c5d89054d277f35f7e4f9df040eb6d8046e623356abf",
+      "archived": false
+    },
+    {
+      "name": "pilot_random_shocks.csv",
+      "bytes": 3422,
+      "sha256": "b9a2fa27e5dd21fa44c8ddeb0b417546719f1016e0a476b1c1a6d33321472e11",
+      "archived": false
+    },
+    {
+      "name": "pilot_severity_metadata.json",
+      "bytes": 801,
+      "sha256": "22eda98821ae7573c53364618ea7261b25f3ab0ed985b224705f31075421795e",
+      "archived": false
+    },
+    {
+      "name": "pilot_severity_rounds.csv",
+      "bytes": 88721,
+      "sha256": "36b54a925e56f677cbc20c9834038dd9bdeb54fab7640cdfa611841e245f8580",
+      "archived": false
+    },
+    {
+      "name": "pilot_severity_shocks.csv",
+      "bytes": 51188,
+      "sha256": "449ddddffa22d80c05c00e7ddcf1538beece14e160a3666a3c0c27ba7fff1556",
+      "archived": false
+    },
+    {
+      "name": "pilot_severity_summary.csv",
+      "bytes": 443,
+      "sha256": "6b35164c85272879c14465b47544280ada9cbe00b996af0bc07f41237653f34f",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_cases.csv",
+      "bytes": 884807,
+      "sha256": "e81c43d4dfdf798401e52c4b6766054d8c7869c27216be947f955b7ece78d08d",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_edges.csv",
+      "bytes": 994262,
+      "sha256": "d938f2c27e2154d0c3b97aa9aef1a6ea9f00a72e9bfe5bee8a975fd7faf253b1",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_joint_comparison.csv",
+      "bytes": 1112,
+      "sha256": "14c8450a5b37ae34e7c41d071e19b120ccc832d1363c60178473b46bcca9692f",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_joint_metadata.json",
+      "bytes": 1192,
+      "sha256": "261ffa2a046f75ecb3de4e81c8afb3588802e96d995e93d31980843a9904bab9",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_joint_per_network.csv",
+      "bytes": 29508,
+      "sha256": "2a2f5e98091495feae67aa61058b43ed72025e8f216eae68612d947f50284100",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_joint_rounds.csv",
+      "bytes": 61351668,
+      "sha256": "46906dcc000ac32f44f1ae552606919647e59cbdbc4e77e053085ddd9c5c094d",
+      "archived": true
+    },
+    {
+      "name": "redundancy1000_joint_shocks.csv",
+      "bytes": 30270829,
+      "sha256": "81712b0c94fd4abe80c8edf0cb001ef28244e927c7c02f8a8b69ac43271d9394",
+      "archived": true
+    },
+    {
+      "name": "redundancy1000_joint_summary.csv",
+      "bytes": 1992,
+      "sha256": "c9a60b6c37486d51cd415b32c03121972c72c847116b5f0982fa6c9452bf587c",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_manifest.csv",
+      "bytes": 653,
+      "sha256": "6bcc6be37362ad898db67d71b58d0f630f2493cbdf1ae980448b14204dba32e8",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_metadata.json",
+      "bytes": 968,
+      "sha256": "146b899c6bdd5523b97ae760defdd9cc211aacbc9e7cbfbe029b3d3ef898564a",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_per_network.csv",
+      "bytes": 504,
+      "sha256": "d885fd5f60c900fd73cf78f53465a410be1f74e89e4d81cd97eaf10fa0226b93",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_comparison.csv",
+      "bytes": 1112,
+      "sha256": "43d6a1b44d55c5b5655c299abab919609a3a52fd46cdc1103cad4f2a953b7935",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_edges.csv",
+      "bytes": 2277135,
+      "sha256": "c0f09c49cd811b5298c8f96fd594e2d47db01f109a5ed6e7bd8f16ed05e794ab",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_manifest.csv",
+      "bytes": 1148,
+      "sha256": "a81661e06ebc90e5899c369fb550d97f33335cd9d13950dbd1593aa048a9cf8e",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_metadata.json",
+      "bytes": 1117,
+      "sha256": "c18a78c9700778e5b50f1d36cb1d6f2dfd7217d420725888fbc0823088fb0560",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_network_ranges.csv",
+      "bytes": 11250,
+      "sha256": "938c6a65ba09628428dddf2fdaaa3927bd5df83a4a99984110532a2bc353e46a",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_per_network.csv",
+      "bytes": 44805,
+      "sha256": "767e5edb9ccafd70aedf213073589b9d0d4f122adb662e2125857587789c6716",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_robustness_rounds.csv",
+      "bytes": 132462499,
+      "sha256": "e830eb739a67919ecd289a1fbbef1fe64375ffdecea627f7e6fdf585ec9d6c7a",
+      "archived": true
+    },
+    {
+      "name": "redundancy1000_robustness_shocks.csv",
+      "bytes": 32753954,
+      "sha256": "482fc8b73d6f3547c84a87fd9ce1639ec2e4abfdecd3c9e78bcde99871e15296",
+      "archived": true
+    },
+    {
+      "name": "redundancy1000_robustness_summary.csv",
+      "bytes": 2655,
+      "sha256": "e8fe144d0211e58e273b976992683c15752a801a59387e1106759a91fe6f88cc",
+      "archived": false
+    },
+    {
+      "name": "redundancy1000_summary.csv",
+      "bytes": 110,
+      "sha256": "bd37532885ae4e202910a47da9e96a2b477e72b4efaf635652f13c2e8ac61d5f",
+      "archived": false
+    },
+    {
+      "name": "targeted1000_comparison.csv",
+      "bytes": 680,
+      "sha256": "f8e857a64e784eaa2bc73d290eaaa40fae5a8af344aa84a45ff46cff05f4fba7",
+      "archived": false
+    },
+    {
+      "name": "targeted1000_metadata.json",
+      "bytes": 1001,
+      "sha256": "24ddf4a5306e29b0e18f30e4752781ebf50503c9e656c4e54458f058bd909e7a",
+      "archived": false
+    },
+    {
+      "name": "targeted1000_per_network.csv",
+      "bytes": 12735,
+      "sha256": "2d905db01626ddc4d84072799f7d26b5bdfa9f9dcd7cecf62634d6d9fd4801a9",
+      "archived": false
+    },
+    {
+      "name": "targeted1000_rounds.csv",
+      "bytes": 43075424,
+      "sha256": "4416931e50844a00564e9e0f92e7ed7b5cd955d7b5f7715fe9018a1765ac2b25",
+      "archived": true
+    },
+    {
+      "name": "targeted1000_shocks.csv",
+      "bytes": 12860868,
+      "sha256": "33efe8b9b7cadd700d7386c002f3544ab720a04440ba133efc043b857ac19ee5",
+      "archived": true
+    },
+    {
+      "name": "targeted1000_summary.csv",
+      "bytes": 1025,
+      "sha256": "288e2c257ee72f544b145c4331a40956165ed044a38eff804d408a15b103a862",
+      "archived": false
+    }
+  ],
+  "localization": "English documentation, messages and human-readable JSON values; CSV files unchanged."
+}

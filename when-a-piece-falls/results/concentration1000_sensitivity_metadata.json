@@ -1,0 +1,30 @@
+{
+  "stage": "structural_sensitivity_supplier_pool_100_vs_150",
+  "n": 1000,
+  "networks": 20,
+  "new_pool_size": 150,
+  "baseline_pool_size": 100,
+  "seed_rule": "10000+i; i=0..19; N01..N20",
+  "new_executions": 16000,
+  "baseline_replays_for_validation": 16000,
+  "failure_round_records": 2085622,
+  "reference_files": [
+    "networks1000_nodes.csv",
+    "networks1000_edges.csv",
+    "concentration1000_edges.csv",
+    "concentration1000_joint_shocks.csv",
+    "concentration1000_joint_per_network.csv"
+  ],
+  "shock_references": [
+    "networks1000_shocks.csv",
+    "targeted1000_shocks.csv"
+  ],
+  "pairing": "same_original_network_and_initial_firms; fixed_original_targeted_selection",
+  "construction": "same_uniform_pool_method; new_seeds; pools_and_edges_not_required_to_be_nested",
+  "controls": "same_nodes_attributes_layers_in_degree_per_customer_and_edges_per_transition",
+  "aggregation": "100_shocks_within_network_then_equal_weight_across_20_networks_per_version; HHI_equal_weight_across_transitions_and_networks",
+  "scope": "two_pool_sizes_and_one_assignment_each; does_not_isolate_parameter_from_assignment_randomness",
+  "limits": "no_general_robustness_or_HHI_only_causal_effect; no_adapted_targeting; no_costs",
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}

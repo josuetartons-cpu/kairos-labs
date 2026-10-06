@@ -1,0 +1,30 @@
+{
+  "stage": "pilot_severity_comparison_single_fixed_network",
+  "n": 100,
+  "topology_seed": 42,
+  "size_seed": 43,
+  "new_scenarios": [
+    {
+      "initial_failures": 5,
+      "shock_seed": 45,
+      "repetitions": 100
+    },
+    {
+      "initial_failures": 10,
+      "shock_seed": 46,
+      "repetitions": 100
+    },
+    {
+      "initial_failures": 20,
+      "shock_seed": 47,
+      "repetitions": 100
+    }
+  ],
+  "reference": "pilot_random_shocks.csv; 1%; seed=44; 100 repetitions",
+  "new_executions": 300,
+  "sampling": "uniform_without_replacement_within_shock; fresh_draw_between_shocks",
+  "comparison": "separate_seed_per_severity; not_paired_or_nested",
+  "cascade_rule": "all_original_suppliers_failed; sources_exempt_from_supply_failure",
+  "python": "3.12.14",
+  "networkx": "3.6.1"
+}

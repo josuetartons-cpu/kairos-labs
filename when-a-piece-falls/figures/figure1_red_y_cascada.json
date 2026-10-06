@@ -1,0 +1,103 @@
+{
+  "initial_failures": [
+    "C"
+  ],
+  "rounds": [
+    [
+      "C"
+    ],
+    [
+      "D",
+      "E"
+    ],
+    [
+      "F"
+    ]
+  ],
+  "survivors": [
+    "A",
+    "B",
+    "G",
+    "H"
+  ],
+  "total_failures": 4,
+  "additional_failures": 3,
+  "edges": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "B",
+      "H"
+    ],
+    [
+      "C",
+      "D"
+    ],
+    [
+      "C",
+      "E"
+    ],
+    [
+      "D",
+      "F"
+    ],
+    [
+      "E",
+      "F"
+    ],
+    [
+      "F",
+      "G"
+    ],
+    [
+      "H",
+      "G"
+    ]
+  ],
+  "positions": {
+    "A": [
+      0,
+      1
+    ],
+    "B": [
+      0,
+      -1
+    ],
+    "C": [
+      1,
+      0.5
+    ],
+    "D": [
+      2,
+      1
+    ],
+    "E": [
+      2,
+      0
+    ],
+    "F": [
+      3,
+      0.5
+    ],
+    "G": [
+      4,
+      0
+    ],
+    "H": [
+      2,
+      -1
+    ]
+  },
+  "purpose": "Teaching example selected to show propagation and survival through substitution.",
+  "networkx": "3.6.1",
+  "matplotlib": "3.10.8",
+  "palette_reference": "Kairos colors intensified at Josue's request",
+  "captions_file": "figure_captions.md",
+  "background": "#F7F4EE"
+}

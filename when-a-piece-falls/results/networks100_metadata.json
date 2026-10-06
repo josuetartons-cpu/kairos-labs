@@ -1,0 +1,25 @@
+{
+  "stage": "multiple_networks_same_layered_generator",
+  "n": 100,
+  "network_count": 20,
+  "repetitions_per_network_per_severity": 100,
+  "shock_percentages": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "executions": 8000,
+  "topology_seed_rule": "1000 + network_index",
+  "size_seed_rule": "2000 + network_index",
+  "shock_seed_rule": "3000 + 4 * network_index + scenario_index",
+  "indices": "network_index=0..19; scenario_index=0..3 in [1,5,10,20] order",
+  "aggregation": "mean within each network, then equal-weight mean across networks",
+  "ranges": "network_mean_range is not a confidence interval",
+  "generator": "five_equal_layers; previous_layer_suppliers; counts_uniform_1_2_3",
+  "cascade_rule": "all_original_suppliers_failed; sources_exempt_from_supply_failure",
+  "sampling": "uniform_without_replacement_within_shock; fresh_draw_between_shocks",
+  "comparison": "separate_seed_per_network_and_severity; not_paired_or_nested",
+  "python": "3.12.14",
+  "networkx": "3.6.1"
+}

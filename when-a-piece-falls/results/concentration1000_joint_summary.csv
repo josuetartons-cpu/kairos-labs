@@ -1,0 +1,17 @@
+strategy,version,shock_fraction,networks,initial_failures,mean_additional_failures,mean_total_failures,min_network_mean_total_failures,max_network_mean_total_failures,mean_functional_firms_pct,mean_amplification,mean_cascade_frequency_pct,min_single_shock_total_failures,max_single_shock_total_failures,mean_propagation_rounds
+random,original,0.01,20,10,3.598,13.598,12.59,14.07,98.64020000000001,1.3598,92.35,10.0,27.0,1.5185
+random,original,0.05,20,50,17.7785,67.77850000000001,64.99,69.63,93.22215,1.35557,100.0,53.0,95.0,2.532
+random,original,0.1,20,100,36.8055,136.8055,129.9,141.03,86.31945,1.368055,100.0,113.0,173.0,3.0665
+random,original,0.2,20,200,77.111,277.111,264.92,284.85,72.2889,1.385555,100.0,237.0,327.0,3.596
+random,concentrated,0.01,20,10,3.637,13.637,13.0,14.22,98.6363,1.3637,88.55,10.0,33.0,1.405
+random,concentrated,0.05,20,50,18.237,68.237,65.4,71.01,93.1763,1.36474,100.0,51.0,96.0,2.4965
+random,concentrated,0.1,20,100,37.13,137.13,131.42,143.59,86.287,1.3713,100.0,110.0,190.0,2.9545
+random,concentrated,0.2,20,200,77.2115,277.2115,267.98,288.35,72.27885,1.3860575,100.0,240.0,339.0,3.4745
+targeted_original_out_degree,original,0.01,20,10,16.8665,26.8665,22.52,34.26,97.31335,2.68665,100.0,18.0,41.0,2.8165
+targeted_original_out_degree,original,0.05,20,50,73.8815,123.8815,108.62,144.4,87.61185,2.47763,100.0,99.0,163.0,3.713
+targeted_original_out_degree,original,0.1,20,100,149.8895,249.8895,230.26,270.34,75.01105,2.498895,100.0,216.0,288.0,3.98
+targeted_original_out_degree,original,0.2,20,200,293.463,493.463,471.05,520.36,50.6537,2.467315,100.0,430.0,553.0,4
+targeted_original_out_degree,concentrated,0.01,20,10,3.7005,13.7005,10.77,17.68,98.62995000000001,1.37005,97.05,10.0,25.0,1.3655
+targeted_original_out_degree,concentrated,0.05,20,50,23.335,73.335,65.01,91.95,92.6665,1.4667000000000001,100.0,60.0,98.0,2.646
+targeted_original_out_degree,concentrated,0.1,20,100,49.6595,149.6595,131.91,174.84,85.03405,1.496595,100.0,126.0,185.0,3.2075
+targeted_original_out_degree,concentrated,0.2,20,200,110.973,310.973,289.42,356.06,68.9027,1.554865,100.0,271.0,385.0,3.7405

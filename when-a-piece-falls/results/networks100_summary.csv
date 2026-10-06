@@ -1,0 +1,5 @@
+shock_fraction,networks,initial_failures,mean_additional_failures,mean_total_failures,min_network_mean_total_failures,max_network_mean_total_failures,mean_functional_firms_pct,mean_amplification,mean_cascade_frequency_pct,min_single_shock_total_failures,max_single_shock_total_failures
+0.01,20,1,0.3565,1.3565,1.19,1.67,98.6435,1.3565,22.75,1.0,8.0
+0.05,20,5,1.7825,6.7825,6.21,7.77,93.2175,1.3565,73.75,5.0,17.0
+0.1,20,10,3.694,13.694,12.64,16.27,86.306,1.3694,92.3,10.0,37.0
+0.2,20,20,7.946,27.946,25.62,30.64,72.054,1.3973,99.5,20.0,47.0

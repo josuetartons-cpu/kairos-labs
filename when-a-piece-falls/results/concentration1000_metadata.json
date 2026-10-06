@@ -1,0 +1,23 @@
+{
+  "stage": "concentrated_supplier_pool_construction_and_benchmark_only",
+  "n": 1000,
+  "networks": 20,
+  "pool_size": 100,
+  "potential_suppliers_per_layer": 200,
+  "concentration_seed_rule": "9000+i; i=0..19; N01..N20",
+  "selection": "sample_sorted_layers_0_to_3_first; then_sorted_customers_sample_sorted_pool",
+  "controls": "same_nodes_attributes_in_degree_per_customer_edges_per_transition; no_original_mutation",
+  "hhi": "sum_supplier_squared_client_counts / transition_edge_count_squared; scale_0_to_1; zero_client_suppliers_included",
+  "aggregation": "equal_weight_mean_of_four_transition_HHIs_per_network; equal_weight_mean_of_twenty_networks",
+  "references": [
+    "networks1000_nodes.csv",
+    "networks1000_edges.csv",
+    "networks1000_manifest.csv"
+  ],
+  "node_reference": "networks1000_nodes.csv; attributes_unchanged",
+  "new_shock_executions": 0,
+  "future_shocks": "pending_review; same_saved_random_and_original_targeted_initial_sets; no_reranking",
+  "limits": "relationships_not_sales; topology_and_supplier_identity_change; no_resilience_result_yet; no_costs",
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}

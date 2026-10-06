@@ -1,0 +1,31 @@
+{
+  "stage": "fixed_pre_shock_out_degree_targeting",
+  "n": 1000,
+  "networks": 20,
+  "tie_rankings_per_network": 100,
+  "initial_failures": [
+    10,
+    50,
+    100,
+    200
+  ],
+  "new_executions": 8000,
+  "failure_round_records": 1788201,
+  "ranking": "original_out_degree_descending; shuffled_order_within_equal_degree",
+  "tie_seed_rule": "4000 + 100 * network_index + repetition - 1",
+  "tie_seed_range": [
+    4000,
+    5999
+  ],
+  "intensities": "nested_prefixes_of_same_ranking_within_targeted_repetition",
+  "repetitions": "tie_break_uncertainty_only; cascade_deterministic; repeated_sets_possible",
+  "random_reference": "networks1000_per_network.csv; same_networks_and_initial_counts",
+  "comparison": "paired_by_network; not_paired_by_individual_shock; economic_size_not_matched",
+  "network_files": [
+    "networks1000_nodes.csv",
+    "networks1000_edges.csv",
+    "networks1000_manifest.csv",
+    "networks1000_metadata.json"
+  ],
+  "cascade_rule": "unchanged_complete_substitution"
+}

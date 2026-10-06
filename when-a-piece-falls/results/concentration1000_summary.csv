@@ -1,0 +1,2 @@
+networks,pool_size,original_mean_hhi,concentrated_mean_hhi,min_concentrated_network_mean_hhi,max_concentrated_network_mean_hhi,networks_with_higher_hhi
+20,100,0.0074359570365288815,0.01246902349084504,0.012153073914016443,0.012799934230461687,20

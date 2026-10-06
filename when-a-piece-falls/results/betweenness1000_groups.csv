@@ -1,0 +1,8 @@
+group_by,value,firms,zero_betweenness_firms,cascade_cases,mean_betweenness_raw,mean_total_failures,max_total_failures
+layer,0,4000,4000,1185,0.0,1.512,13
+layer,1,4000,522,1122,26.8925,1.47375,9
+layer,2,4000,511,1110,34.94725,1.438,10
+layer,3,4000,510,1135,27.0355,1.3315,5
+layer,4,4000,4000,0,0.0,1,1
+betweenness_status,zero,9543,9543,1185,0.0,1.2146075657550037,13
+betweenness_status,positive,10457,0,3367,33.99646170029645,1.4755666061011763,10

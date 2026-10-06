@@ -1,0 +1,9 @@
+strategy,shock_fraction,initial_failures,original_mean_total_failures,redundant_mean_total_failures,original_mean_additional_failures,redundant_mean_additional_failures,difference_mean_total_failures,redundant_mean_functional_firms_pct,redundant_mean_amplification,redundant_mean_cascade_frequency_pct
+random,0.01,10,13.598,10.0255,3.598,0.025500000000000002,-3.5725000000000016,98.99745,1.00255,2.55
+random,0.05,50,67.77850000000001,50.6775,17.7785,0.6775,-17.101000000000006,94.93225,1.01355,47.8
+random,0.1,100,136.8055,102.8205,36.8055,2.8205,-33.985,89.71795,1.028205,91.75
+random,0.2,200,277.111,211.8555,77.111,11.8555,-65.25549999999998,78.81445,1.0592775,100.0
+targeted_original_out_degree,0.01,10,26.8665,10.158,16.8665,0.158,-16.7085,98.9842,1.0158,13.2
+targeted_original_out_degree,0.05,50,123.8815,53.2335,73.8815,3.2335,-70.648,94.67665,1.06467,95.2
+targeted_original_out_degree,0.1,100,249.8895,113.11449999999999,149.8895,13.1145,-136.775,88.68854999999999,1.131145,100.0
+targeted_original_out_degree,0.2,200,493.463,258.0075,293.463,58.0075,-235.45550000000003,74.19925,1.2900375,100.0

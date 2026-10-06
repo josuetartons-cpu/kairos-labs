@@ -1,0 +1,30 @@
+{
+  "stage": "sensitivity_to_alternative_supplier_assignment",
+  "n": 1000,
+  "original_networks": 20,
+  "assignments_per_network": 3,
+  "new_executions": 32000,
+  "baseline_replays_for_validation": 32000,
+  "failure_round_records": 3240425,
+  "seed_rules": {
+    "R1": "6000+i; saved",
+    "R2": "7000+i",
+    "R3": "8000+i"
+  },
+  "network_index": "i=0..19; N01..N20",
+  "intervention": "one_alternative_per_non_source; each_assignment_starts_from_original",
+  "R1_references": [
+    "redundancy1000_edges.csv",
+    "redundancy1000_joint_per_network.csv"
+  ],
+  "shock_references": [
+    "networks1000_shocks.csv",
+    "targeted1000_shocks.csv"
+  ],
+  "pairing": "same_original_network_and_initial_firms_across_assignments; original_targeted_ranking_fixed",
+  "aggregation": "100_shocks_per_network_then_equal_weight_across_20_networks_per_assignment",
+  "ranges": "descriptive_min_max_of_three_assignments; not_confidence_intervals",
+  "limits": "assignment_sensitivity_only; same_topology_family_cascade_rule_and_shocks; no_costs_capacity_or_real_economy_inference",
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}

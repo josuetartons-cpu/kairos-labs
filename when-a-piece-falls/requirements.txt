@@ -1,0 +1,6 @@
+# Verified with Python 3.12.14. Simulation and figure dependencies.
+networkx==3.6.1
+# Scientific figures; does not participate in cascade dynamics.
+matplotlib==3.10.8
+# Numerical operations for figures; also required by Matplotlib.
+numpy==2.3.5

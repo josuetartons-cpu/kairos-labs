@@ -1,0 +1,19 @@
+{
+  "stage": "added_alternative_suppliers_single_withdrawal_validation",
+  "n": 1000,
+  "networks": 20,
+  "cases": 20000,
+  "redundancy_seed_rule": "6000 + network_index; index=0..19",
+  "selection": "sorted_customers; uniform_choice_from_sorted_previous_layer_non_suppliers",
+  "intervention": "one_new_supplier_per_non_source; preserve_original_edges_and_node_attributes",
+  "node_reference": "networks1000_nodes.csv",
+  "edge_reference": "networks1000_edges.csv",
+  "case_reference": "individual1000_cases.csv",
+  "weighting": "equal_case_weights; equal_network_weights_because_1000_cases_each",
+  "difference": "redundant_minus_original_additional_failures",
+  "cascade_rule": "unchanged_complete_substitution",
+  "interpretation": "zero_secondary_failures_is_implied_by_minimum_two_distinct_suppliers",
+  "limits": "no_joint_shocks; no_costs; no_equal_edge_count_concentration_comparison; no_real_economy_inference",
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}

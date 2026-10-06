@@ -1,0 +1,338 @@
+{
+  "source_sha256": {
+    "targeted1000_summary.csv": "288e2c257ee72f544b145c4331a40956165ed044a38eff804d408a15b103a862",
+    "redundancy1000_joint_summary.csv": "c9a60b6c37486d51cd415b32c03121972c72c847116b5f0982fa6c9452bf587c",
+    "concentration1000_sensitivity_summary.csv": "d74ea3b1c4245943d038564e088d6beddf9328d9c78fe8b5d8100e72b777e326",
+    "concentration1000_sensitivity_benchmark.csv": "178bd4b3e132780642f03fa5f448f6f3481cfacedea731205b2e11057098e322",
+    "betweenness1000_firms.csv": "2a5f6b4c4a22cd3649f6b127f80ad2c24a97da34b24172974fb9a4f7e71506a2",
+    "betweenness1000_groups.csv": "e872f302c136c957ffccb97c52c16ca4f8b1b062d8a768e2f13db5dabee8f16b",
+    "connectivity1000_summary.csv": "8b08346afec8eb623b34f2d93c4753472f51d709d5e8b52f56279e0814dfe501",
+    "connectivity1000_benchmark_summary.csv": "d959ef4e2f9d6749b7b3a86c260642d68fba3908221eba72cdb3364b2c773b2a"
+  },
+  "figures": [
+    {
+      "figure": "figure2_severidad_y_estrategia",
+      "plotted_data": [
+        {
+          "strategy": "random",
+          "mean": [
+            13.598,
+            67.77850000000001,
+            136.8055,
+            277.111
+          ],
+          "min": [
+            12.59,
+            64.99,
+            129.9,
+            264.92
+          ],
+          "max": [
+            14.07,
+            69.63,
+            141.03,
+            284.85
+          ]
+        },
+        {
+          "strategy": "targeted_out_degree",
+          "mean": [
+            26.8665,
+            123.8815,
+            249.8895,
+            493.463
+          ],
+          "min": [
+            22.52,
+            108.62,
+            230.26,
+            471.05
+          ],
+          "max": [
+            34.26,
+            144.4,
+            270.34,
+            520.36
+          ]
+        }
+      ]
+    },
+    {
+      "figure": "figure3_redundancia",
+      "plotted_data": [
+        {
+          "strategy": "random",
+          "version": "original",
+          "mean_additional": [
+            3.598,
+            17.7785,
+            36.8055,
+            77.111
+          ]
+        },
+        {
+          "strategy": "random",
+          "version": "redundant",
+          "mean_additional": [
+            0.025500000000000002,
+            0.6775,
+            2.8205,
+            11.8555
+          ]
+        },
+        {
+          "strategy": "targeted_original_out_degree",
+          "version": "original",
+          "mean_additional": [
+            16.8665,
+            73.8815,
+            149.8895,
+            293.463
+          ]
+        },
+        {
+          "strategy": "targeted_original_out_degree",
+          "version": "redundant",
+          "mean_additional": [
+            0.158,
+            3.2335,
+            13.1145,
+            58.0075
+          ]
+        }
+      ]
+    },
+    {
+      "figure": "figure4_concentracion",
+      "plotted_data": [
+        {
+          "version": "original",
+          "hhi": 0.0074359570365288815
+        },
+        {
+          "version": "pool150",
+          "hhi": 0.009061224754190089
+        },
+        {
+          "version": "pool100",
+          "hhi": 0.012469023490845041
+        },
+        {
+          "version": "original",
+          "strategy": "random",
+          "mean_additional": [
+            3.598,
+            17.7785,
+            36.8055,
+            77.111
+          ]
+        },
+        {
+          "version": "pool150",
+          "strategy": "random",
+          "mean_additional": [
+            3.5245,
+            17.692,
+            36.371,
+            76.023
+          ]
+        },
+        {
+          "version": "pool100",
+          "strategy": "random",
+          "mean_additional": [
+            3.637,
+            18.237,
+            37.13,
+            77.2115
+          ]
+        },
+        {
+          "version": "original",
+          "strategy": "targeted_original_out_degree",
+          "mean_additional": [
+            16.8665,
+            73.8815,
+            149.8895,
+            293.463
+          ]
+        },
+        {
+          "version": "pool150",
+          "strategy": "targeted_original_out_degree",
+          "mean_additional": [
+            4.1615,
+            24.2045,
+            50.105000000000004,
+            110.7295
+          ]
+        },
+        {
+          "version": "pool100",
+          "strategy": "targeted_original_out_degree",
+          "mean_additional": [
+            3.7005,
+            23.335,
+            49.6595,
+            110.973
+          ]
+        }
+      ]
+    },
+    {
+      "figure": "figure5_intermediacion_y_dano",
+      "plotted_data": [
+        {
+          "max_damage": {
+            "network_id": "N02",
+            "firm": "E030",
+            "layer": "0",
+            "size": "2",
+            "in_degree": "0",
+            "out_degree": "5",
+            "betweenness_raw": "0.0",
+            "betweenness_normalized": "0.0",
+            "additional_failures": "12",
+            "total_failures": "13",
+            "propagation_rounds": "4"
+          },
+          "max_betweenness": {
+            "network_id": "N20",
+            "firm": "E461",
+            "layer": "2",
+            "size": "4",
+            "in_degree": "3",
+            "out_degree": "7",
+            "betweenness_raw": "225.83333333333334",
+            "betweenness_normalized": "0.00022651241756118176",
+            "additional_failures": "3",
+            "total_failures": "4",
+            "propagation_rounds": "2"
+          }
+        },
+        {
+          "layer_means_additional": [
+            0.512,
+            0.4737499999999999,
+            0.43799999999999994,
+            0.3314999999999999,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "figure": "figureC1_conectividad",
+      "plotted_data": [
+        {
+          "strategy": "random",
+          "version": "original",
+          "fragmentation": [
+            0.06085385385385385,
+            0.06254001200936049,
+            0.06974148862625425,
+            0.08124701293116864,
+            0.11178921081656093
+          ]
+        },
+        {
+          "strategy": "random",
+          "version": "redundant",
+          "fragmentation": [
+            0.020397597597597617,
+            0.02100100938359414,
+            0.023653622197954267,
+            0.027816128942225238,
+            0.038482016568002486
+          ]
+        },
+        {
+          "strategy": "random",
+          "version": "pool150",
+          "fragmentation": [
+            0.1262777777777778,
+            0.12757348969766533,
+            0.1330785613355286,
+            0.14170459187325435,
+            0.16694081065735572
+          ]
+        },
+        {
+          "strategy": "random",
+          "version": "pool100",
+          "fragmentation": [
+            0.196283983983984,
+            0.19733659186150404,
+            0.20167533226313325,
+            0.2086759370459132,
+            0.2286786622367621
+          ]
+        },
+        {
+          "strategy": "targeted_original_out_degree",
+          "version": "original",
+          "fragmentation": [
+            0.06085385385385385,
+            0.06535311053242052,
+            0.08398168927755312,
+            0.1236104668916619,
+            0.4251616491257163
+          ]
+        },
+        {
+          "strategy": "targeted_original_out_degree",
+          "version": "redundant",
+          "fragmentation": [
+            0.020397597597597617,
+            0.021895078728384403,
+            0.026629728861998554,
+            0.034489136790844,
+            0.0666377403585561
+          ]
+        },
+        {
+          "strategy": "targeted_original_out_degree",
+          "version": "pool150",
+          "fragmentation": [
+            0.1262777777777778,
+            0.12843920430668393,
+            0.13605330727302775,
+            0.14594843097939644,
+            0.17935505472042676
+          ]
+        },
+        {
+          "strategy": "targeted_original_out_degree",
+          "version": "pool100",
+          "fragmentation": [
+            0.196283983983984,
+            0.19718013024068032,
+            0.20212532888596318,
+            0.21002452666614074,
+            0.23659116828748986
+          ]
+        }
+      ]
+    }
+  ],
+  "palette_reference": "Kairos Laboratory base palette, intensified at Josue's request on October 5, 2026",
+  "palette": {
+    "bg": "#F7F4EE",
+    "ink": "#1C1B22",
+    "dim": "#6B6570",
+    "line": "#E4DFD3",
+    "wine": "#C5234A",
+    "blue": "#176AD5",
+    "navy": "#17264A",
+    "gold": "#E2AD46",
+    "gray": "#716778",
+    "pool150": "#8652B8"
+  },
+  "fonts": "DejaVu Sans / Mono: portable alternatives to Space Grotesk and IBM Plex Mono",
+  "matplotlib": "3.10.8",
+  "numpy": "2.3.5",
+  "aggregation": "Saved means: equal network weights and 100 repetitions per network. Figure 5 groups firms by layer.",
+  "simulations_run": 0,
+  "status": "Drafts for review",
+  "captions_file": "figure_captions.md"
+}

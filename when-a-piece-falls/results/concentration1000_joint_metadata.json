@@ -1,0 +1,28 @@
+{
+  "stage": "paired_saved_shocks_on_saved_concentrated_networks",
+  "n": 1000,
+  "networks": 20,
+  "pool_size": 100,
+  "new_executions": 16000,
+  "baseline_replays_for_validation": 16000,
+  "failure_round_records": 2087767,
+  "network_references": [
+    "networks1000_nodes.csv",
+    "networks1000_edges.csv",
+    "concentration1000_edges.csv",
+    "concentration1000_pools.csv"
+  ],
+  "shock_references": [
+    "networks1000_shocks.csv",
+    "targeted1000_shocks.csv"
+  ],
+  "pairing": "same_network_initial_firms_and_repetition_within_strategy; not_paired_between_strategies",
+  "targeting": "fixed_original_out_degree_selections; no_reranking_on_variant",
+  "randomness": "no_new_draws; saved_concentration_seeds_9000_to_9019",
+  "aggregation": "mean_within_100_shocks_then_equal_weight_across_20_networks",
+  "difference": "concentrated_minus_original_total_failures",
+  "depth": "rounds_after_initial_shock; logical_steps_not_time",
+  "limits": "one_concentrated_variant_per_reference; identities_and_paths_change; no_HHI_only_causal_effect; no_costs",
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}

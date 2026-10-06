@@ -1,0 +1,18 @@
+{
+  "stage": "exhaustive_single_firm_withdrawal",
+  "n": 1000,
+  "networks": 20,
+  "cases": 20000,
+  "failure_round_records": 27021,
+  "topology_seed_rule": "1000 + network_index",
+  "size_seed_rule": "2000 + network_index",
+  "network_index": "0..19",
+  "initial_failures_per_case": 1,
+  "sampling": "all_firms_once_per_network; no_shock_rng; deterministic_cascades",
+  "overall_weighting": "equal_case_weights; equal_network_weights_because_1000_cases_each",
+  "group_weighting": "pooled_firms_in_each_group; network_group_counts_can_differ",
+  "size": "independent_synthetic_label_1_2_4; unused_by_cascade_rule",
+  "comparison_warning": "previous_1_percent_shocks_removed_10_firms_not_1",
+  "network_reference": "networks1000_nodes.csv; networks1000_edges.csv",
+  "cascade_rule": "unchanged_complete_substitution"
+}

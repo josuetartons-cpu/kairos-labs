@@ -1,0 +1,5 @@
+shock_fraction,shock_seed,repetitions,initial_failures,mean_additional_failures,mean_total_failures,median_total_failures,min_total_failures,max_total_failures,mean_functional_firms_pct,mean_amplification,shocks_with_cascade
+0.01,44,100,1,0.37,1.37,1.0,1.0,5.0,98.63,1.37,19
+0.05,45,100,5,2.04,7.04,6.0,5.0,15.0,92.96,1.408,78
+0.1,46,100,10,3.72,13.72,14.0,10.0,22.0,86.28,1.372,97
+0.2,47,100,20,8.32,28.32,27.0,22.0,46.0,71.68,1.416,100

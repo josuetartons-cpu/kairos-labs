@@ -1,0 +1,23 @@
+{
+  "stage": "exact_directed_betweenness_original_benchmarks",
+  "networks": 20,
+  "firms": 20000,
+  "example_firms": 8,
+  "new_cascades": 0,
+  "method": "NetworkX exact Brandes; directed; k=None; weight=None; endpoints=False",
+  "raw": "sum_of_fractions_of_shortest_directed_paths_through_node_excluding_endpoints",
+  "normalization": "raw / ((n-1)*(n-2)); zero_for_n_less_than_3",
+  "unreachable_pairs": "contribute_zero; normalization_uses_all_possible_pairs",
+  "groups": "pooled_firms_with_equal_weight; network_group_counts_can_differ",
+  "per_network": "full_1000_firm_census_each; networks_not_independent_shocks",
+  "limits": "not_supply_flow_or_cascade_impact; sources_and_sinks_have_zero; size_unused",
+  "scope": "original_benchmarks_only; no_new_attacks_or_variants",
+  "input_sha256": {
+    "networks1000_nodes.csv": "6af4f448073cab9a0393a907f63a63174cbb6c43cc91938d830603926f9ede63",
+    "networks1000_edges.csv": "89070d89401edeec6276edd6629353df38473aec0e33a21e0deba28886aedcbc",
+    "networks1000_manifest.csv": "310f2de7230fded66f94ddc55018c7ae21274ada28aaa03835afed0633b161c3",
+    "individual1000_cases.csv": "37b02363c32f09ef686f52a74b9d476611c55b033f0915e59b7d18ae8559bfe1"
+  },
+  "python": "3.12.14",
+  "networkx": "3.6.1"
+}

@@ -1,0 +1,52 @@
+{
+  "stage": "weak_connectivity_of_saved_benchmarks_and_final_states",
+  "benchmarks": 80,
+  "final_states": 64000,
+  "new_cascades": 0,
+  "versions": [
+    "original",
+    "redundant",
+    "pool100",
+    "pool150"
+  ],
+  "networks_per_version": 20,
+  "n": 1000,
+  "strategies": [
+    "random",
+    "targeted_original_out_degree"
+  ],
+  "shock_fractions": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "survivors": "original_nodes_minus_saved_failed_firms; node_active_attribute_not_used",
+  "connectivity": "weak; direction_ignored_only_for_components; isolates_count_as_one",
+  "largest_component_fraction_original": "largest_component / original_n",
+  "fragmentation": "1 - sum(n_j*(n_j-1)) / (A*(A-1)); fraction_of_disconnected_survivor_pairs",
+  "undefined_fragmentation": "A<2: None, blank_csv_cell; no_zero_imputation",
+  "empty_survivors": "A=0,K=0,L=0,L/N=0; fragmentation_undefined",
+  "aggregation": "mean_within_network_then_equal_weight_across_networks; undefined_fragmentation_cases_excluded; networks_without_defined_cases_excluded_for_fragmentation_only; report_denominators",
+  "component_sizes": "descending_sizes_separated_by_pipe; empty_for_zero_survivors",
+  "selection": "saved_selections; original_out_degree_targeting_without_reranking; no_new_draws",
+  "excluded": "individual_censuses_and_redundancy_R2_R3",
+  "limits": "structural_description_not_production_or_supply_viability; no_costs_or_efficiency; no_real_economy_inference",
+  "input_sha256": {
+    "networks1000_nodes.csv": "6af4f448073cab9a0393a907f63a63174cbb6c43cc91938d830603926f9ede63",
+    "networks1000_edges.csv": "89070d89401edeec6276edd6629353df38473aec0e33a21e0deba28886aedcbc",
+    "networks1000_manifest.csv": "310f2de7230fded66f94ddc55018c7ae21274ada28aaa03835afed0633b161c3",
+    "redundancy1000_edges.csv": "d938f2c27e2154d0c3b97aa9aef1a6ea9f00a72e9bfe5bee8a975fd7faf253b1",
+    "concentration1000_edges.csv": "5b23263f4acdcc8fae4b610754c2f6f894cf8d870381fd3cd4db56cec6d588f5",
+    "concentration1000_pools.csv": "fefb6dd07435700b6b35fb90ebc1034a179023b798e87b02600ab608a2bd436f",
+    "concentration1000_sensitivity_edges.csv": "8d5b5ab048df3066dd14a059c8a022e400bce4e41bd0fa9ef65e5dab4df247e0",
+    "concentration1000_sensitivity_pools.csv": "04bd822d6dd12d76f64a7cedf07cab6de66eb95d6ce137c475c7d00c19e6f48d",
+    "networks1000_shocks.csv": "e6d87aea8961bdfdc69f28816702cd27a5f07042928d312b50d71f2833e1f12a",
+    "targeted1000_shocks.csv": "33efe8b9b7cadd700d7386c002f3544ab720a04440ba133efc043b857ac19ee5",
+    "redundancy1000_joint_shocks.csv": "81712b0c94fd4abe80c8edf0cb001ef28244e927c7c02f8a8b69ac43271d9394",
+    "concentration1000_joint_shocks.csv": "ff8dc5bed6493fd4212c75c222a8e2eee6545411dc2c6df5769f09351277feba",
+    "concentration1000_sensitivity_shocks.csv": "5b5f18298511187761b8dd9fccaa99ae0a77f3792583ef3e00de9739b2c843ff"
+  },
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}

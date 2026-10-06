@@ -1,0 +1,2 @@
+cases,mean_total_failures,mean_additional_failures,max_total_failures,cascade_frequency_pct
+20000,1.35105,0.35105,13,22.76

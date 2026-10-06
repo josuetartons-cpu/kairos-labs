@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.zip
+
+# Locally restored detailed CSV files; complete originals are preserved in results/archives/.
+results/concentration1000_joint_rounds.csv
+results/concentration1000_joint_shocks.csv
+results/concentration1000_sensitivity_rounds.csv
+results/concentration1000_sensitivity_shocks.csv
+results/connectivity1000_states.csv
+results/networks1000_rounds.csv
+results/redundancy1000_joint_rounds.csv
+results/redundancy1000_joint_shocks.csv
+results/redundancy1000_robustness_rounds.csv
+results/redundancy1000_robustness_shocks.csv
+results/targeted1000_rounds.csv
+results/targeted1000_shocks.csv

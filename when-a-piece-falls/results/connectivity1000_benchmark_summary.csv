@@ -1,0 +1,5 @@
+version,networks,mean_active_firms,mean_weak_components,mean_largest_component,mean_largest_component_fraction_original,mean_fragmentation
+original,20,1000,30,969.1,0.9691,0.06085385385385385
+redundant,20,1000,11.25,989.75,0.98975,0.020397597597597617
+pool100,20,1000,103.5,896.55,0.8965500000000001,0.196283983983984
+pool150,20,1000,64,934.75,0.93475,0.1262777777777778

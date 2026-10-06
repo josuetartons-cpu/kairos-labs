@@ -1,0 +1,15 @@
+{
+  "stage": "pilot_single_fixed_network",
+  "n": 100,
+  "layers": 5,
+  "topology_seed": 42,
+  "size_seed": 43,
+  "shock_seed": 44,
+  "initial_failures_per_shock": 1,
+  "shock_fraction": 0.01,
+  "repetitions": 100,
+  "sampling": "uniform_without_replacement_within_shock; fresh_draw_between_shocks",
+  "cascade_rule": "all_original_suppliers_failed; sources_exempt_from_supply_failure",
+  "python": "3.12.14",
+  "networkx": "3.6.1"
+}

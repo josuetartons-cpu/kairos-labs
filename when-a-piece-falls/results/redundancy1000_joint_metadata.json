@@ -1,0 +1,27 @@
+{
+  "stage": "paired_saved_joint_shocks_on_saved_redundant_networks",
+  "n": 1000,
+  "networks": 20,
+  "new_executions": 16000,
+  "baseline_replays_for_validation": 16000,
+  "failure_round_records": 1619785,
+  "shock_references": [
+    "networks1000_shocks.csv",
+    "targeted1000_shocks.csv"
+  ],
+  "network_references": [
+    "networks1000_nodes.csv",
+    "networks1000_edges.csv",
+    "redundancy1000_edges.csv"
+  ],
+  "pairing": "same_network_same_initial_firms_same_repetition_within_strategy",
+  "strategies": "random_and_targeted_original_out_degree; not_paired_between_strategies",
+  "ranking": "reuse_original_targeted_selection; no_reranking_on_redundant_network",
+  "randomness": "no_new_draws; existing_alternative_supplier_seeds_6000_to_6019",
+  "aggregation": "mean_within_network_then_equal_weight_across_20_networks",
+  "difference": "redundant_minus_original_total_failures; equal_to_additional_difference",
+  "validation": "all_baselines_reproduced; redundant_final_failures_subset_of_original",
+  "limits": "one_redundancy_realization_per_network; no_costs_or_capacity; no_equal_edge_count_control; no_real_economy_inference",
+  "python": "3.14.6",
+  "networkx": "3.6.1"
+}
